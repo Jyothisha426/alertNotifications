@@ -1,0 +1,58 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.icon-msg-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-head {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
